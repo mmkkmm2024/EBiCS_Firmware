@@ -73,16 +73,16 @@
 
 //---------------------------------------------------------------------
 //Throttle settings
-#define THROTTLE_OFFSET 1250   //only default value, throttle offset is set at startup automatically
+#define THROTTLE_OFFSET 1500   //only default value, throttle offset is set at startup automatically
 #define THROTTLE_MAX 2850
 #define THROTTLE_OVERRIDE
 
 //--------------------------------------------------------------------
 //Speed settings
 #define WHEEL_CIRCUMFERENCE 2200
-#define GEAR_RATIO 11 //11 for BionX IGH3
+#define GEAR_RATIO 50 //8FUN 1:5 mit 20 Magn.
 #define SPEEDLIMIT 32
-#define PULSES_PER_REVOLUTION 1
+#define PULSES_PER_REVOLUTION 36
 #define SPEEDSOURCE INTERNAL
 #define SPEEDFILTER 1
 #define SPDSHFT 0
@@ -90,7 +90,7 @@
 //---------------------------------------------------------------------
 //power settings
 #define PH_CURRENT_MAX 1200
-#define BATTERYCURRENT_MAX 14000
+#define BATTERYCURRENT_MAX 13000
 #define REVERSE 1 //1 for normal direction, -1 for reverse
 #define PUSHASSIST_CURRENT 300
 #define VOLTAGE_MIN 1320 //33V
@@ -108,8 +108,8 @@
 //---------------------------------------------------------------------
 //Regen settings
 
-#define REGEN_CURRENT 800
-#define REGEN_CURRENT_MAX 10000
+#define REGEN_CURRENT 0 //Alt 800
+#define REGEN_CURRENT_MAX 0 //Alt 10000
 //#define ADC_BRAKE
 
 //---------------------------------------------------------------------
