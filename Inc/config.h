@@ -81,7 +81,7 @@
 //Speed settings
 #define WHEEL_CIRCUMFERENCE 2200
 #define GEAR_RATIO 50 //8FUN 1:5 mit 20 Magn.
-#define SPEEDLIMIT 32
+#define SPEEDLIMIT 31
 #define PULSES_PER_REVOLUTION 36
 #define SPEEDSOURCE INTERNAL
 #define SPEEDFILTER 1
@@ -89,7 +89,7 @@
 
 //---------------------------------------------------------------------
 //power settings
-#define PH_CURRENT_MAX 1200
+#define PH_CURRENT_MAX 600
 #define BATTERYCURRENT_MAX 13000
 #define REVERSE 1 //1 for normal direction, -1 for reverse
 #define PUSHASSIST_CURRENT 300
