@@ -74,23 +74,23 @@
 //---------------------------------------------------------------------
 //Throttle settings
 #define THROTTLE_OFFSET 1500   //only default value, throttle offset is set at startup automatically
-#define THROTTLE_MAX 2850
+#define THROTTLE_MAX 3000
 #define THROTTLE_OVERRIDE
 
 //--------------------------------------------------------------------
 //Speed settings
-#define WHEEL_CIRCUMFERENCE 2200
+#define WHEEL_CIRCUMFERENCE 2160
 #define GEAR_RATIO 50 //8FUN 1:5 mit 20 Magn.
 #define SPEEDLIMIT 30
 #define PULSES_PER_REVOLUTION 6
-#define SPEEDSOURCE INTERNAL
+#define SPEEDSOURCE EXTERNAL
 #define SPEEDFILTER 1
 #define SPDSHFT 0
 
 //---------------------------------------------------------------------
 //power settings
 #define PH_CURRENT_MAX 600
-#define BATTERYCURRENT_MAX 12000
+#define BATTERYCURRENT_MAX 14000
 #define REVERSE 1 //1 for normal direction, -1 for reverse
 #define PUSHASSIST_CURRENT 300
 #define VOLTAGE_MIN 1320 //33V
